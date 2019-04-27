@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>507</width>
+    <height>567</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QComboBox" name="character_box">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>111</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="animation_box">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>86</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="frame_box">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>86</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add_animation_button">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>50</y>
+      <width>41</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delete_animation_button">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>50</y>
+      <width>41</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Del</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>71</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Character</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>0</y>
+      <width>71</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Animation</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>0</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Frame</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add_frame_button">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>50</y>
+      <width>41</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delete_frame_button">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>50</y>
+      <width>41</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Del</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>290</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tile Properties</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>310</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>X:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>340</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Y:</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="tile_x_box">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>310</y>
+      <width>48</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="tile_y_box">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>340</y>
+      <width>48</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add_tile_button">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>370</y>
+      <width>71</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New Tile</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delete_tile_button">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>370</y>
+      <width>81</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete Tile</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>400</y>
+      <width>51</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Palette</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>140</y>
+      <width>41</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Zoom</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zoom_in_button">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>160</y>
+      <width>31</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zoom_out_button">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>190</y>
+      <width>31</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>507</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
